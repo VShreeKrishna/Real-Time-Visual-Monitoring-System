@@ -8,11 +8,12 @@ ai-service/venv/
 ai-service/.env
 frontend/.env
 backend/.env
-# Ignore everything in frontend/
+# Ignore everything inside frontend/
 frontend/*
 
-# But keep .gitkeep so folder is tracked
+# Except .gitkeep
 !frontend/.gitkeep
+
 
 
 # Uploads
